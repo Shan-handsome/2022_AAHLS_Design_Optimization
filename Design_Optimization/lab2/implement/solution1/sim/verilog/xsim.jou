@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Oct 11 22:28:18 2022
+# Process ID: 5124
+# Current directory: D:/Courses/AAHLS_lab/labA/ug871-design-files/Design_Optimization/lab2/matrixmul_prj/solution1/sim/verilog
+# Command line: xsim.exe -mode tcl -source {xsim.dir/matrixmul/xsim_script.tcl}
+# Log file: D:/Courses/AAHLS_lab/labA/ug871-design-files/Design_Optimization/lab2/matrixmul_prj/solution1/sim/verilog/xsim.log
+# Journal file: D:/Courses/AAHLS_lab/labA/ug871-design-files/Design_Optimization/lab2/matrixmul_prj/solution1/sim/verilog\xsim.jou
+# Running On: DESKTOP-V5N9CDE, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 17088 MB
+#-----------------------------------------------------------
+source xsim.dir/matrixmul/xsim_script.tcl
+open_wave_config matrixmul_dataflow_ana.wcfg
+source matrixmul.tcl
